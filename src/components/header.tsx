@@ -11,8 +11,13 @@ const Wrapper = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 64px;
   width: 100%;
+  padding: 16px;
+  padding-bottom: 64px;
+
+  @media(min-width: 420px) {
+    padding: 64px;
+  }
 `;
 
 const Heading = styled.h1`
