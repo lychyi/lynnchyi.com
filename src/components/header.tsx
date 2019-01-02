@@ -26,7 +26,7 @@ const Header: React.SFC<HeaderProps> = ({siteTitle}) => {
   return (
     <Wrapper>
       <Heading>{siteTitle}</Heading>
-      <Button>Where to?</Button>
+      <Button tabIndex={0} href="https://github.com/lychyi" target="_blank">Github</Button>
     </Wrapper>
   )
 }
