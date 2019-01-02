@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import { StaticQuery, graphql } from 'gatsby'
 
 import Header from './header'
+
 import './layout.css'
 
 const Layout = ({ children }) => (
@@ -28,9 +29,6 @@ const Layout = ({ children }) => (
           }}
         >
           {children}
-          <footer>
-            © 2018, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
         </div>
       </>
     )}
