@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Lynn Chyi`,
-    description: `Personal site for Lynn Chyi`,
+    description: `Design Technologist in the Bay Area`,
     author: `Lynn Chyi <mailbox@lynnchyi.com>`,
   },
   plugins: [
@@ -25,17 +25,17 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `lynnchyi.com`,
+        short_name: `lynnchyi.com`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#FFFFFF`,
+        theme_color: `#FFFFFF`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/lynnchyi-icon.png`, // This path is relative to the root of the site.
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }
