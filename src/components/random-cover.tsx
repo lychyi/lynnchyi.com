@@ -13,9 +13,18 @@ const Wrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
   user-select: none;
   cursor: pointer;
+  height: calc(100vh - 272px - 24px);
+  width: 100%;
+  padding: 0 16px;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+
+  @media(min-width: 420px) {
+    height: calc(100vh - 272px - 24px);
+    padding: 0 64px;
+  }
 `;
 
 class RandomCover extends React.Component<{}, { currentCover: any }> {
@@ -50,7 +59,7 @@ class RandomCover extends React.Component<{}, { currentCover: any }> {
   render() {
     return (
       <Wrapper onClick={() => this.randomizeCover()}>
-        <img src={this.state.currentCover} />
+        <img style={{ width: '100%', height: '100%' }} src={this.state.currentCover} />
       </Wrapper>
     )
   }
