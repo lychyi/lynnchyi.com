@@ -25,6 +25,10 @@ const Wrapper = styled.div`
     height: calc(100vh - 272px - 24px);
     padding: 0 64px;
   }
+
+  @media(max-height: 767px) {
+    height: 100%;
+  }
 `;
 
 class RandomCover extends React.Component<{}, { currentCover: any }> {
