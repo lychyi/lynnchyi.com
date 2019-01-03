@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="468px" height="452px" viewBox="0 0 468 452" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-Copy-8" transform="translate(-278.000000, -313.000000)" fill-rule="nonzero">
+            <g id="Group" transform="translate(278.000000, 313.000000)">
+                <polygon id="Rectangle-Copy-2" fill="#B93120" points="5.68434189e-14 207.92872 113.269531 171 104.307588 439.055259 23.9400684 451.144531"></polygon>
+                <polygon id="Rectangle" fill="#283061" points="42 53.40625 205.269531 2.84217094e-14 192.351563 387.661047 76.5078125 405.144531"></polygon>
+                <path d="M251.128906,329.406854 C309.947232,329.406854 368.816406,278.521753 368.816406,219.703427 C368.816406,160.885101 296.447232,110 237.628906,110 C178.81058,110 139,176.721341 139,235.539666 C139,294.357992 192.31058,329.406854 251.128906,329.406854 Z" id="Oval" fill="#000D3A"></path>
+                <path d="M349.709012,329.406854 C408.527338,329.406854 467.396512,278.521753 467.396512,219.703427 C467.396512,160.885101 395.027338,110 336.209012,110 C277.390686,110 397.568387,130.734375 397.568387,213.808594 C397.568387,296.882813 290.890686,329.406854 349.709012,329.406854 Z" id="Oval-Copy" fill="#FBD709"></path>
+            </g>
+        </g>
+    </g>
+</svg>
