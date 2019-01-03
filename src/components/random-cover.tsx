@@ -26,8 +26,10 @@ const Wrapper = styled.div`
     padding: 0 64px;
   }
 
-  @media(max-height: 767px) {
+  @media(max-height: 640px) {
+    margin: 0 auto;
     height: 100%;
+    max-width: 1280px;
   }
 `;
 
