@@ -1,9 +1,9 @@
 {
   "name": "lynnchyi.com",
   "private": true,
-  "description": "Personal site for Lynn Chyi",
+  "description": "You call this a web site?",
   "version": "0.1.0",
-  "author": "Lynn Chyi <mailbox@lynnchyi.com",
+  "author": "Lynn Chyi",
   "dependencies": {
     "@emotion/core": "^10.0.14",
     "@emotion/styled": "^10.0.14",
