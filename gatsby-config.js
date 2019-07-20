@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Lynn Chyi`,
-    description: `Design Technologist in the Bay Area`,
+    description: `Working on Design Systems`,
     author: `Lynn Chyi <mailbox@lynnchyi.com>`,
   },
   plugins: [
